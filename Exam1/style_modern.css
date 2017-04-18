@@ -1,0 +1,228 @@
+/*Monet Harkin */
+/* Assignment 5 CSS - Word Stream*/
+
+
+*{
+	border: none;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+body{
+	background-color: black;
+	font-family: helvetica, arial, sans-serif;
+	color: white;
+}
+p{
+	font-size: 11px;
+}
+#header{
+	color: white;
+	display: block;
+}
+	#header_top{
+		list-style-image: none;
+		display: block;
+			}
+		#header_top img{
+			display: inline-block;
+			vertical-align: top;
+			padding: 0px;
+			margin-bottom: 30px;
+		}
+		#header_top_clear{
+			display: inline-block;
+			width: 450px;
+			height: 20px;
+		}
+		#header_top p{
+			display: inline-block;
+			vertical-align: top;
+			padding: 5px;
+			font-family: arial, sans-serif;
+			font-size: 13px;
+		}
+	#header ul{
+		display: block;
+		padding: 9px 15px;
+		background-color: #373737;
+		color: #aaa;
+		width: 900px;
+		border-right: 1px solid #21262C;
+	}
+		#menuBar{
+		display: block;
+		background-color: #373737;
+		color: #aaa;
+		width: 976px;
+	}
+	#header ul li{
+		display: inline;
+		border-right: 1px solid #21262C;
+		padding: 2px 18px;
+		font-size: 12px;
+		vertical-align: top;
+		font-weight: bold;
+	}
+	#header ul li:first-child{
+		color: white;
+	}
+	#header ul li:last-child{
+		border: none;
+	}
+	#header ul li span{
+		display: inline-block;
+		font-size: 8px;
+		vertical-align: top;
+		margin: 2px 0px 0px;
+	}
+#main_img{
+	display: block;
+	background-image: url("main_pic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 976px;
+	height: 355px;
+	border-bottom: 3px solid #8c8a8a;
+}
+#area1underPic{
+	display: block;
+	width: 926px;
+	height: auto;
+	padding: 15px 25px;
+	background-color: #1F2120;
+}
+	.area1underPic_boxes{
+		display: inline-block;
+		margin: 25px 0px;
+		width:215px;
+		padding: 0px 5px;
+	}
+	.area1underPic_boxes img{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.area1underPic_boxes div{
+		display: inline-block;
+		vertical-align: top;
+		width: 150px;
+		padding-left: 1px;
+	}
+	.area1underPic_boxes div h3{
+		display: block;
+		color: #FF7400;
+		font-family: calluna, gentium, serif;
+		font-weight: 300;
+	}
+	.area1underPic_boxes div p{
+		display: block;
+		font-size: 11px;
+		font-weight: 300;
+	}
+#area2underPic{
+	display: block;
+	padding: 15px 30px 25px;
+}
+	#area2underPic #content_A2{
+		display: inline-block;
+		width: 580px;
+		padding: 5px;
+
+	}
+		#content_A2 h2{
+			display: block;
+			font-weight: 100;
+			padding: 10px 0px;
+		}
+		#content_A2 p{
+			display: block;
+			font-size: 12px;
+			font-weight: 100;
+			padding-bottom: 10px;
+		}
+	#clear_A2{
+		display: inline-block;
+		height: 10px;
+		width:150px;
+		vertical-align: top;
+	}
+	#area2underPic form{
+		display: inline-block;
+		height: auto;
+		width: auto;
+		padding: 5px;
+		vertical-align: top;
+		margin-top: 30px;
+	}
+		#area2underPic form input{
+			padding: 10px;
+			width: 120px;
+			border-radius: 5px;
+			background-color: #FF7400;
+			color: white;
+			font-weight: bold;
+			box-shadow: 1px 1px 1px #2B2B2B;
+		}
+
+
+#area3underPic{
+	display: block;
+	width: 926px;
+	height: auto;
+	padding: 25px;
+	background-color: #1F2120;
+}
+	#portfolio_title{
+		display: inline-block;
+		font-family: serif;
+		padding: 1px 5px;
+
+	}
+	#clear_A3{
+		display: inline-block;
+		height: 10px;
+		width:720px;
+	}
+	#view_projects{
+		display: inline-block;
+		color: #FF7400;
+		font-style: italic;
+	}
+	#a3_boxes{
+		display: block;
+	}
+		.area3underPic_boxes{
+			display: inline-block;
+			margin: 25px 0px;
+			width:215px;
+			height: auto;
+			padding: 10px 5px;
+		}
+			.area3underPic_boxes img{
+				display: block;
+				vertical-align: top;
+				width: 205px;
+				height: 131px;
+				border: 4px solid gray;
+			}
+			.area3underPic_boxes div{
+				display: block;
+				vertical-align: top;
+				width: 215px;
+			}
+			.area3underPic_boxes div h3{
+				display: block;
+				color: #FF7400;
+				font-family: calluna, gentium, serif;
+				font-weight: 300;
+				padding: 8px 0px;
+				font-size: 16px;
+			}
+			.area3underPic_boxes div p{
+				display: block;
+				font-size: 11px;
+				font-weight: 300;
+				font-weight: 100;
+				line-height: 1.4;
+			}
